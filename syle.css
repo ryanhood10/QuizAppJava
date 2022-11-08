@@ -1,0 +1,155 @@
+
+/* styling for the opening page */
+
+body{
+    background-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body.div{
+    flex-direction: column;
+
+    margin-bottom: 0.8rem;
+    width: 80%;
+    
+
+}
+
+button{
+    border-radius: 12px;
+    border-color: deepskyblue;
+    flex-direction: column;
+    width: 80%;
+}
+button:hover{
+    background-color: aquamarine;
+    text-decoration: none;
+}
+
+h1{
+   
+    font-size: 90px; 
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.card{
+    margin: auto;
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20%;
+    height: 400px;
+    border-radius: 10px;
+    border-color: #140f20;
+    background-color: chartreuse; 
+    font-size: large;
+    visibility: hidden;
+
+}
+
+#heading{
+    visibility: visible;
+    width: 80%;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #140f20;
+    align-items: center;
+    place-content: center;
+
+}
+#card_6{
+    position:fixed ;
+    display: inline-block;
+    font-size: larger;
+}
+
+
+#Answer1{
+    visibility: hidden;
+
+}
+#Answer2{
+    visibility: hidden;
+}
+#Answer3{
+    visibility: hidden;
+}
+#Answer4{
+    visibility: hidden;
+}
+#Answer5{
+    visibility: hidden;
+}
+#Answer6{
+    visibility: hidden;
+}
+#Answer7{
+    visibility: hidden;
+}
+#Answer8{
+    visibility: hidden;
+}
+#Answer9{
+    visibility: hidden;
+}
+#Answer10{
+    visibility: hidden;
+}
+#Answer11{
+    visibility: hidden;
+}
+#Answer12{
+    visibility: hidden;
+}
+#Answer13{
+    visibility: hidden;
+}
+#Answer14{
+    visibility: hidden;
+}
+#Answer15{
+    visibility: hidden;
+}
+#Answer16{
+    visibility: hidden;
+}
+#Answer17{
+    visibility: hidden;
+}
+#Answer18{
+    visibility: hidden;
+}
+#Answer19{
+    visibility: hidden;
+}
+#Answer20{
+    visibility: hidden;
+}
+
+
+
+
+#timer{
+    position: absolute;
+    top: 80%;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 10px;
+    border-color: black;
+    font-size: larger;
+    text-shadow: 20%;
+    
+
+}
